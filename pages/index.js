@@ -7,7 +7,7 @@ export default function Home() {
   const [animalInput, setAnimalInput] = useState("");
   const [result, setResult] = useState();
 
-  async function onSubmit(event) {
+  async function onSubmit(event) { 
     event.preventDefault();
 
       var speech = true;
