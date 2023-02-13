@@ -74,6 +74,7 @@
   border-radius: 100%;
   width: 350px;
   height: 350px;
+  text-size: 100px
 }
 .main .result {
   font-weight: bold;
