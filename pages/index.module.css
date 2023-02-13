@@ -82,5 +82,5 @@
   overflow:visible
 }
 .amogus{
- font-size:40px; 
+ font-size: max(30vw, 30px);
 }
