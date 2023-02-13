@@ -44,25 +44,18 @@
   overflow:visible
 }
 .main form {
-  background-color: #48abe0;
-  padding: 5px;
-  font-size: 31px;
-  min-height: 130px;
-  min-width: 130px;
-  border-radius: 100%;
-  display: flex;  
-  justify-content: center;  
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  overflow:visible
 }
 .main input[type="text"] {
   padding: 12px 16px;
   border: 1px solid #10a37f;
-  border-radius: 100%;
+  border-radius: 4px;
   margin-bottom: 24px;
   outline-color: #10a37f;
-  overflow:visible;  
-  justify-content: center;  
-  
-
+  overflow:visible
 }
 .main ::placeholder {
   color: #8e8ea0;
@@ -70,27 +63,18 @@
   overflow:visible
 }
 .main input[type="submit"] {
-  background-color: #48abe0;
-  color: white;
+  padding: 12px 0;
+  color: #fff;
+  background-color: #10a37f;
   border: none;
-  padding: 5px;
-  font-size: 31px;
-  min-height: 130px;
-  min-width: 130px;
-  box-shadow: 0 2px 4px #48abe0;
+  border-radius: 4px;
+  text-align: center;
+  overflow:visible;
   cursor: pointer;
-  transition: all 0.2s ease;
-  border-radius: 100%;
 }
-.main form:active{
-background-color: #48abe0;
-box-shadow: 0 0 2px darkslategray;
-transform: translateY(2px);
-}
-
 .main .result {
   font-weight: bold;
-  margin-top: 30px;
+  margin-top: 100px;
   overflow:visible
 }
 @viewport {
@@ -98,3 +82,7 @@ transform: translateY(2px);
   zoom: 1.0 ;
   overflow:visible
 }
+
+
+
+
