@@ -47,8 +47,8 @@
   background-color: #48abe0;
   padding: 5px;
   font-size: 31px;
-  height: 130px;
-  width: 130px;
+  min-height: 130px;
+  min-width: 130px;
   border-radius: 100%;
   display: flex;  
   justify-content: center;  
@@ -76,8 +76,8 @@
   border: none;
   padding: 5px;
   font-size: 31px;
-  height: 130px;
-  width: 130px;
+  min-height: 130px;
+  min-width: 130px;
   box-shadow: 0 2px 4px #48abe0;
   cursor: pointer;
   transition: all 0.2s ease;
