@@ -46,7 +46,7 @@
 .main form {
   display: flex;
   flex-direction: column;
-  width: 300px;
+  width: 250px;
   overflow:visible;
   align-items: center;
   border-radius: 100%;
@@ -72,8 +72,8 @@
   overflow:visible;
   cursor: pointer;
   border-radius: 100%;
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   font-size: 100px
 }
 .main .result {
@@ -81,4 +81,8 @@
   margin-top: 100px;
   overflow:visible
 }
-
+@viewport {
+  width: device-width;
+  zoom: 0.5 ;
+  overflow:visible
+}
