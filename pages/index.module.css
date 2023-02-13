@@ -46,14 +46,15 @@
 .main form {
   display: flex;
   flex-direction: column;
-  width: 320px;
+  width: 500px;
+  height: 500px;
   overflow:visible;
-  border-radius: 25px;
+  border-radius: 100%;
 }
 .main input[type="text"] {
   padding: 12px 16px;
   border: 1px solid #10a37f;
-  border-radius: 4px;
+  border-radius: 100%;
   margin-bottom: 24px;
   outline-color: #10a37f;
   overflow:visible
@@ -72,7 +73,7 @@
   text-align: center;
   overflow:visible;
   cursor: pointer;
-  border-radius: 25px;
+  border-radius: 100%;
 }
 .main .result {
   font-weight: bold;
