@@ -75,6 +75,7 @@
   border-radius: 100%;
   width: 350px;
   height: 350px;
+  background: url('../public/dog.png') 0 0 no-repeat;
 }
 .main .result {
   font-weight: bold;
