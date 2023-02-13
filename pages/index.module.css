@@ -82,7 +82,7 @@
   overflow:visible
 }
 @viewport {
-  width: device-width / 1.5 ;
+  width: device-width / 2 ;
   zoom: 1.0 ;
   overflow:visible
 }
