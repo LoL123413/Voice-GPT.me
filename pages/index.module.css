@@ -17,7 +17,6 @@
 }
 .main,
 .main input {
-  backgroundColor: 0C0032;
   font-size: 16px;
   line-height: 24px;
   color: #190061;
@@ -80,11 +79,6 @@
 .main .result {
   font-weight: bold;
   margin-top: 100px;
-  overflow:visible
-}
-@viewport {
-  width: device-width;
-  zoom: 0.5 ;
   overflow:visible
 }
 .amogus{
