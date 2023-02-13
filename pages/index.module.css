@@ -1,4 +1,4 @@
-@font-face {
+@font-face-face {
   font-family: "ColfaxAI";
   src: url(https://cdn.openai.com/API/fonts/ColfaxAIRegular.woff2)
       format("woff2"),
@@ -45,16 +45,13 @@
 }
 .main form {
   background-color: #48abe0;
-  color: white;
-  border: none;
   padding: 5px;
   font-size: 31px;
-  height: 130px;
-  width: 130px;
-  box-shadow: 0 2px 4px darkslategray;
-  cursor: pointer;
-  transition: all 0.2s ease;
+  min-height: 130px;
+  min-width: 130px;
   border-radius: 100%;
+  display: flex;  
+  justify-content: center;  
 }
 .main input[type="text"] {
   padding: 12px 16px;
@@ -63,6 +60,8 @@
   margin-bottom: 24px;
   outline-color: #10a37f;
   overflow:visible;
+  display: flex;  
+  justify-content: center;  
 
 }
 .main ::placeholder {
@@ -76,8 +75,8 @@
   border: none;
   padding: 5px;
   font-size: 31px;
-  height: 130px;
-  width: 130px;
+  min-height: 130px;
+  min-width: 130px;
   box-shadow: 0 2px 4px #48abe0;
   cursor: pointer;
   transition: all 0.2s ease;
@@ -98,6 +97,13 @@ transform: translateY(2px);
   width: device-width ;
   zoom: 1.0 ;
   overflow:visible
+}
+
+
+
+
+
+
 }
 
 
