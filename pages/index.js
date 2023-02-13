@@ -89,7 +89,7 @@ export default function Home() {
  
         </form>
         <div className={styles.result}>{result}</div>
-      
+       
 <div style={{
   position: "fixed",
   textAlign: "center",
