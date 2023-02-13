@@ -50,6 +50,8 @@
   height: 130px;
   width: 130px;
   border-radius: 100%;
+  display: flex;  
+  justify-content: center;  
   
 }
 .main input[type="text"] {
@@ -59,6 +61,8 @@
   margin-bottom: 24px;
   outline-color: #10a37f;
   overflow:visible;
+  display: flex;  
+  justify-content: center;  
 
 }
 .main ::placeholder {
