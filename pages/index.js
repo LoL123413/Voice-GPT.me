@@ -72,7 +72,7 @@ export default function Home() {
   }
 
   return (
-    <div style={{  backgroundColor: 0C0032;   }}>
+    <div style={{  backgroundColor: "#0C0032";   }}>
       <script>
           
       </script>
