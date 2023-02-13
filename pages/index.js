@@ -77,7 +77,7 @@ export default function Home() {
           
       </script>
       <Head>
-        <title>OpenAI Quickstart</title>
+        <title>Voice-GPT</title>
         <link rel="icon" href="/dog.png" />
       </Head>
 
