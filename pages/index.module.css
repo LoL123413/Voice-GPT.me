@@ -49,6 +49,7 @@
   font-size: 31px;
   height: 130px;
   width: 130px;
+  border-radius: 100%;
   
 }
 .main input[type="text"] {
