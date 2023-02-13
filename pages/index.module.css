@@ -46,8 +46,9 @@
 .main form {
   display: flex;
   flex-direction: column;
-  width: 350px;
+  width: 300px;
   overflow:visible;
+  align-items: center;
   border-radius: 100%;
 }
 .main input[type="text"] {
