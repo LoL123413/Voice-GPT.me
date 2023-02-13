@@ -85,9 +85,9 @@ export default function Home() {
         <img src="/dog.png" className={styles.icon} />
         <h3>VoiceGPT</h3>
         <form onSubmit={onSubmit}>
-          <svg src='../public/dog.png'>
-          <input id="click_to_record" type="submit" value="Speak" />
-            </svg>
+          <svg src='../public/dog.png' />
+          <input id="click_to_record" type="submit" value="" />
+ 
         </form>
         <div className={styles.result}>{result}</div>
       
