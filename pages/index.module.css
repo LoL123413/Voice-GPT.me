@@ -81,8 +81,4 @@
   margin-top: 100px;
   overflow:visible
 }
-@viewport {
-  width: device-width;
-  zoom: 0.75 ;
-  overflow:visible
-}
+
