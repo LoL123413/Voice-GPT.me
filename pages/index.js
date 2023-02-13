@@ -93,7 +93,7 @@ export default function Home() {
 <div style={{
   position: "fixed",
   textAlign: "center",
-  size:fixed;
+  fontSize:90px;
   maxWidth:250px;
   bottom: "0",
 }}>
