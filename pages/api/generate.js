@@ -35,8 +35,8 @@ export default async function (req, res) {
     let completion = await openai.createCompletion({
       model: "text-davinci-003",
       prompt: generatePrompt(animal),
-      temperature: 1,
-      max_tokens: 1000,
+      temperature: 0,
+      max_tokens: 256,
     });
 
     res.status(200).json({ result: completion.data.choices[0].text });
@@ -60,6 +60,6 @@ export default async function (req, res) {
 }
 
 function generatePrompt(animal) {
-    animal = `Reply to this: "` + animal + `"` 
+    animal = `answer "` + animal + `"`
     return(animal)
 }
