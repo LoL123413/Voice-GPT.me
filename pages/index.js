@@ -6,8 +6,10 @@ import styles from "./index.module.css";
 export default function Home() {
   const [animalInput, setAnimalInput] = useState("");
   const [result, setResult] = useState();
-
+var amogus = null
   async function onSubmit(event) { 
+    if (amogus !== true) {
+      amogus = true
     event.preventDefault();
 
       var speech = true;
@@ -40,6 +42,10 @@ export default function Home() {
       
 
   return false
+    }
+    else {
+      console.log("request still pending, cannot speak now.")
+    }
   }
   async function geta(thing) {
 
@@ -62,7 +68,8 @@ export default function Home() {
       console.log(data.result)
       var msg = new SpeechSynthesisUtterance();
       msg.text = data.result
-      return window.speechSynthesis.speak(msg);
+      await window.speechSynthesis.speak(msg);
+      amogus = false
     } catch(error) {
       console.error(error);
       alert(error.message);
