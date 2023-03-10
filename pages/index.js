@@ -52,7 +52,7 @@ export default function Home() {
         body: JSON.stringify({ animal: thing }),
       });
       await console.log(thing)
-      const data = await response.json();
+      const data = await response.text();
       if (response.status !== 200) {
         throw data.error || new Error(`Request failed with status ${response.status}`);
         return false
