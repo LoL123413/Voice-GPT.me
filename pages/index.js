@@ -8,7 +8,6 @@ export default function Home() {
   const [result, setResult] = useState();
 var amogus = null
   async function onSubmit(event) { 
-    if (amogus !== true) {
       amogus = true
     event.preventDefault();
 
@@ -42,7 +41,7 @@ var amogus = null
       
 
   return false
-    }
+    
     else {
       console.log("request still pending, cannot speak now.")
     }
