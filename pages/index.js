@@ -6,9 +6,7 @@ import styles from "./index.module.css";
 export default function Home() {
   const [animalInput, setAnimalInput] = useState("");
   const [result, setResult] = useState();
-var amogus = null
   async function onSubmit(event) { 
-      amogus = true
     event.preventDefault();
 
       var speech = true;
@@ -35,12 +33,11 @@ var amogus = null
       
       if (speech == true) {
           recognition.start();
-          return false
 
       }
       
 
-  return false
+
     
     else {
       console.log("request still pending, cannot speak now.")
@@ -72,9 +69,7 @@ var amogus = null
     } catch(error) {
       console.error(error);
       alert(error.message);
-      return false
     }
-    return false
   }
 
   return (
