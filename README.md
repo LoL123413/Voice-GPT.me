@@ -7,4 +7,6 @@ VoiceGPT is a chatbot you can interact with using your voice! It uses OpenAI's t
 
 Some results may be old or inaccurate.
 
+Some results may take long to appear. 
+
 Link: https://voice-gpt.me
