@@ -44,7 +44,6 @@ export default function Home() {
     }
   }
   async function geta(thing) {
-
     try {
       const response = await fetch("/api/generate", {
         method: "POST",
