@@ -6,6 +6,7 @@ import styles from "./index.module.css";
 export default function Home() {
   const [animalInput, setAnimalInput] = useState("");
   const [result, setResult] = useState();
+
   async function onSubmit(event) { 
     event.preventDefault();
 
@@ -33,17 +34,15 @@ export default function Home() {
       
       if (speech == true) {
           recognition.start();
+          return false
 
       }
       
 
-
-    
-    else {
-      console.log("request still pending, cannot speak now.")
-    }
+  return false
   }
   async function geta(thing) {
+
     try {
       const response = await fetch("/api/generate", {
         method: "POST",
@@ -63,11 +62,13 @@ export default function Home() {
       console.log(data.result)
       var msg = new SpeechSynthesisUtterance();
       msg.text = data.result
-      await window.speechSynthesis.speak(msg);
+      return window.speechSynthesis.speak(msg);
     } catch(error) {
       console.error(error);
       alert(error.message);
+      return false
     }
+    return false
   }
 
   return (
