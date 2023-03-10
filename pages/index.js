@@ -65,7 +65,6 @@ export default function Home() {
       var msg = new SpeechSynthesisUtterance();
       msg.text = data.result
       await window.speechSynthesis.speak(msg);
-      amogus = false
     } catch(error) {
       console.error(error);
       alert(error.message);
